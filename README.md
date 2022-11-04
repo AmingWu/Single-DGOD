@@ -4,7 +4,7 @@ CVPR2022: Single-Domain Generalized Object Detection in Urban Scene via Cyclic-D
 
 The current code is Faster R-CNN with FPN. In our paper, we do not utilize FPN.
 
-<img src='./docs/fig1.png' width=900/>
+<img src='./docs/Single-DGOD.png' width=900/>
 
 ## Training
 

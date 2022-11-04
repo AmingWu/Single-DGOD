@@ -8,6 +8,14 @@ The current code is Faster R-CNN with FPN. In our paper, we do not utilize FPN.
 
 ## Training
 
-
+CUDA_VISIBLE_DEVICES=$GPU_ID python trainval_net_fpn.py \
+                    --dataset dc_fpn --net res101 --epochs 20 \
+                    --bs 2 --nw 8 \
+                    --lr 0.004 --lr_decay_step 8 \
+                    --cuda
 
 ## Evaluation
+
+CUDA_VISIBLE_DEVICES=$GPU_ID python test_net_fpn.py --dataset dc_fpn --dataset_test voc_2007_train_nightclear --net res101 \
+                   --checksession 1 --checkepoch 10 --checkpoint 19317 \
+                   --cuda

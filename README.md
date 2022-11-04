@@ -12,7 +12,7 @@ The current code is Faster R-CNN with FPN. In our paper, we do not utilize FPN.
 
 [[Download link](https://drive.google.com/drive/folders/1IIUnUrJrvFgPzU8D6KtV0CXa8k1eBV9B)]
 
-[models(https://drive.google.com/drive/folders/1CahYwJN6LBbJNY2XqslrFEHxqY6JDhZn)]
+[[models](https://drive.google.com/drive/folders/1CahYwJN6LBbJNY2XqslrFEHxqY6JDhZn)]
 
 ## Training
 

@@ -6,6 +6,12 @@ The current code is Faster R-CNN with FPN. In our paper, we do not utilize FPN.
 
 <img src='./Single-DGOD.png' width=900/>
 
+### Datasets
+
+#### Daytime-Sunny, Night-Sunny, Dusk-Rainy, Night-Rainy, and Daytime-Foggy
+
+[[Download link](https://drive.google.com/drive/folders/1IIUnUrJrvFgPzU8D6KtV0CXa8k1eBV9B)]
+
 ## Training
 
 CUDA_VISIBLE_DEVICES=$GPU_ID python trainval_net_fpn.py \

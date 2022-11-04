@@ -31,3 +31,18 @@ CUDA_VISIBLE_DEVICES=$GPU_ID python test_net_fpn.py --dataset dc_fpn --dataset_t
 ## New Results
 
 <img src='./Results/Results.png' width=900/>
+
+## Citation
+
+If you find this repository useful for your work, please cite as follows:
+
+```
+@inproceedings{wu2022single,
+  title={Single-Domain Generalized Object Detection in Urban Scene via Cyclic-Disentangled Self-Distillation},
+  author={Wu, Aming and Deng, Cheng},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={847--856},
+  year={2022}
+}
+
+```

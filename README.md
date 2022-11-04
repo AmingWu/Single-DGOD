@@ -19,3 +19,7 @@ CUDA_VISIBLE_DEVICES=$GPU_ID python trainval_net_fpn.py \
 CUDA_VISIBLE_DEVICES=$GPU_ID python test_net_fpn.py --dataset dc_fpn --dataset_test voc_2007_train_nightclear --net res101 \
                    --checksession 1 --checkepoch 10 --checkpoint 19317 \
                    --cuda
+
+## New Results
+
+<img src='./Results/Results.png' width=900/>
